@@ -33,8 +33,12 @@ The platform will be user-friendly and intuitive, with clear navigation and sear
 - A movie detail page that displays detailed information about a selected movie, including the title, release date, rating, synopsis, and cast.
 -The ability for users to save movies to a watchlist or favorites list, which is stored using client-side storage.
 -Integration with at least two server-side APIs, such as the '------ API' or the  "---API", to fetch movie data and populate the search results and movie detail pages.
+
 -Responsive design using Tailwind CSS to ensure the application works well on different devices and screen sizes.
+
 -Modal dialogs to handle user interaction instead of using alerts, confirms, or prompts.
--A clean repository with a well-organized file structure and meaningful naming conventions, following best practices for class and ID naming conventions and indentation.
+
+-A clean repository with a well-organized file structure and meaningful naming conventions, following best practices for class and ID naming conventions   and indentation.
+
 -Deployment of the application to GitHub Pages, along with a high-quality README file that includes a project description, technologies used, screenshot, and link to the deployed application.
 
