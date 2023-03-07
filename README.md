@@ -28,13 +28,13 @@ The platform will be user-friendly and intuitive, with clear navigation and sear
 
 ## MVP
 
-A home page that displays a search bar for users to search for movies by title, along with a list of popular movies.
-A search results page that displays a list of movies matching the user's search query, with options to sort the results by rating or popularity.
-A movie detail page that displays detailed information about a selected movie, including the title, release date, rating, synopsis, and cast.
-The ability for users to save movies to a watchlist or favorites list, which is stored using client-side storage.
-Integration with at least two server-side APIs, such as the '------ API' or the  "---API", to fetch movie data and populate the search results and movie detail pages.
-Responsive design using Tailwind CSS to ensure the application works well on different devices and screen sizes.
-Modal dialogs to handle user interaction instead of using alerts, confirms, or prompts.
-A clean repository with a well-organized file structure and meaningful naming conventions, following best practices for class and ID naming conventions and indentation.
-Deployment of the application to GitHub Pages, along with a high-quality README file that includes a project description, technologies used, screenshot, and link to the deployed application.
-This MVP will allow users to search for movies, view detailed information about them, and save them to personalized lists, while also meeting the grading criteria for the project. From there, you could add additional features and functionality to the application, such as user authentication, reviews and ratings, or recommendations based on user preferences.
+- A home page that displays a search bar for users to search for movies by title, along with a list of popular movies.
+- A search results page that displays a list of movies matching the user's search query, with options to sort the results by rating or popularity.
+- A movie detail page that displays detailed information about a selected movie, including the title, release date, rating, synopsis, and cast.
+-The ability for users to save movies to a watchlist or favorites list, which is stored using client-side storage.
+-Integration with at least two server-side APIs, such as the '------ API' or the  "---API", to fetch movie data and populate the search results and movie detail pages.
+-Responsive design using Tailwind CSS to ensure the application works well on different devices and screen sizes.
+-Modal dialogs to handle user interaction instead of using alerts, confirms, or prompts.
+-A clean repository with a well-organized file structure and meaningful naming conventions, following best practices for class and ID naming conventions and indentation.
+-Deployment of the application to GitHub Pages, along with a high-quality README file that includes a project description, technologies used, screenshot, and link to the deployed application.
+
