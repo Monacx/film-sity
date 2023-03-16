@@ -1,7 +1,12 @@
-# film-sity
+# Project Title: FILM-SITY
+
 # Project Proposal; Filmsity
 
+DESCRIPTION:
 Filmsity is a movie database designed to give viewers access to detailed movie information, including release date, genre, cast and crew, ratings, reviews, and much more. This project aims to develop a user-friendly platform where user can access and share information about their preferred films.
+
+The project motivation:
+ Is to create a simple and fast way for users to search for movies. The goal is to provide users with an easy way to find new movies
 
 ## User Story
 
@@ -38,12 +43,21 @@ The platform will be user-friendly and intuitive, with clear navigation and sear
 
 -Integration with at least two server-side APIs, such as the '------ API' or the  "---API", to fetch movie data and populate the search results and movie detail pages.
 
--Responsive design using Tailwind CSS to ensure the application works well on different devices and screen sizes.
+-Responsive design using Material UI CSS to ensure the application works well on different devices and screen sizes.
 
 -Modal dialogs to handle user interaction instead of using alerts, confirms, or prompts.
 
 -A clean repository with a well-organized file structure and meaningful naming conventions, following best practices for class and ID naming conventions   and indentation.
 
 -Deployment of the application to GitHub Pages, along with a high-quality README file that includes a project description, technologies used, screenshot, and link to the deployed application.
+Material Used:
+Html,Css,javascript and API.
 
+Some potential feature development ideas for FilmSity include:
 
+* An advanced search feature, allowing users to search by genre, release year, or other criteria
+* An “advanced” view of the results page, allowing users to sort the results by various criteria
+* A “favorites” feature, allowing users to save movies to a personal favorites list
+* An “explore” page, featuring new releases, popular titles, and other curated content
+* Integration with streaming services, allowing users to easily access movies they find on FilmSity
+it is possible to make FilmSity a robotic search engine. This could be done by using Artificial Intelligence (AI) technology to analyze user input and generate relevant search results. Additionally, AI technology could be used to analyze user behavior and provide personalized recommendations.
