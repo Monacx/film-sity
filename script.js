@@ -1,3 +1,4 @@
+function searchFilm() {
 const query = document.getElementById("movie-search-box").value;
     const url = `https://api.tvmaze.com/search/shows?q=${query}`;
     fetch(url)
@@ -6,12 +7,14 @@ const query = document.getElementById("movie-search-box").value;
         const results = jsonData.map((element) => element.show.name);
         listResults(results);
       });
-  
+      document.getElementById("movie-search-box").value="";
+    }
   function listResults(results) {
     const list = document.getElementById("search-list");
     list.innerHTML = "";
     results.forEach((result) => {
-      const element = document.createElement("div");
+      const element = document.createElement("p");
+      element.style.color="white";
       element.innerText = result;
       list.appendChild(element);
     });
@@ -25,12 +28,12 @@ const query = document.getElementById("movie-search-box").value;
     });
   }
   window.onload = () => {
-    const searchFieldElement = document.getElementById("movie-search-box");
-    searchFieldElement.addEventListener("keypress", function (e) {
-      if (e.key === "Enter") {
-        var query = searchFieldElement.value;
-        searchFilm(query);
-      }
+    const searchFieldElement = document.getElementById("search-button");
+    searchFieldElement.addEventListener("click", function (e) {
+      
+        
+        searchFilm();
+    
     })}
 
 
