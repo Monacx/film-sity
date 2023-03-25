@@ -61,3 +61,5 @@ Some potential feature development ideas for FilmSity include:
 * An “explore” page, featuring new releases, popular titles, and other curated content
 * Integration with streaming services, allowing users to easily access movies they find on FilmSity
 it is possible to make FilmSity a robotic search engine. This could be done by using Artificial Intelligence (AI) technology to analyze user input and generate relevant search results. Additionally, AI technology could be used to analyze user behavior and provide personalized recommendations.
+## About pull reguests
+added pull reguest to make changes to the code base.
